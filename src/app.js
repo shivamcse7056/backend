@@ -16,4 +16,4 @@ app.use(express.static("public"))
 app.use(cookieParser())
 
 app.use((err, req, res, next) => {})
-export {app}
+export {app};
